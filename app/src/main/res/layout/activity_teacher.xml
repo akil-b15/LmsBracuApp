@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#151A43"
+    android:layout_height="match_parent"
+    tools:context=".TeacherActivity">
+
+    <TextView
+        android:id="@+id/homeTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="40dp"
+        android:layout_marginBottom="60dp"
+        android:background="#FFFFFF"
+        android:text="      Teacher Dashboard"
+        android:textSize="28sp"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <Button
+        android:id="@+id/publish_notice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Publish a Notice"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/homeTxt"
+        />
+
+    <Button
+        android:id="@+id/upload_slide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Slides"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/publish_notice"
+         />
+
+
+
+    <Button
+        android:id="@+id/upload_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Task"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/upload_slide"
+        />
+
+    <Button
+        android:id="@+id/view_submitted_assignment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Assignments"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/upload_task"
+        />
+
+    <Button
+        android:id="@+id/teacher_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/view_submitted_assignment"
+        />
+
+
+
+
+</RelativeLayout>

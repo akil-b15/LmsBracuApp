@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".MainActivity">
+    
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/bracu_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/lms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="LMS BRACU"
+        android:textSize="26sp"
+        android:layout_below="@+id/logo"
+        android:textColor="@color/colorPrimaryDark"
+         />
+
+    <EditText
+        android:id="@+id/user_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lms"
+        android:padding="20dp"
+
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="ID"
+        android:inputType="text"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:textColor="#000000"
+        android:textColorHint="@color/colorPrimaryDark"/>
+    <EditText
+        android:id="@+id/user_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_id"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:textColor="#000000"
+        android:textColorHint="@color/colorPrimaryDark"/>
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/user_pass"
+        android:text="Login"
+        android:textColor="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimaryDark"/>
+
+    <LinearLayout
+        android:id="@+id/linear_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_btn"
+        android:layout_marginTop="5dp">
+
+    <TextView
+        android:id="@+id/student_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_marginLeft="10dp"
+        android:text="I am a Student"
+        android:textSize="15sp"
+        android:layout_below="@+id/login_btn"
+        android:textColor="#FFFFFF"
+        android:visibility="invisible"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/teacher_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_marginLeft="140dp"
+        android:text="I am a Teacher"
+        android:textSize="15sp"
+        android:layout_below="@+id/login_btn"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/admin_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Go to Admin Panel"
+        android:textSize="15sp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/linear_id"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>

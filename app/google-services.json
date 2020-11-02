@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "230868288478",
+    "firebase_url": "https://lmsbracubyakil.firebaseio.com",
+    "project_id": "lmsbracubyakil",
+    "storage_bucket": "lmsbracubyakil.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230868288478:android:805adf946537e8fd25134f",
+        "android_client_info": {
+          "package_name": "com.example.lmsbracubyakil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230868288478-mirrd7or3b8c465qj8o6j9jdvjg97s27.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lmsbracubyakil",
+            "certificate_hash": "7143f7dba65923e8fa4ce168f4c4c2d19f2b2cef"
+          }
+        },
+        {
+          "client_id": "230868288478-btvp44gi7asi0oi2ev4v7dl70hr75qla.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKoTP_b50QTIvRkAL9_PJkwFUTz2A1FSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230868288478-btvp44gi7asi0oi2ev4v7dl70hr75qla.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/homeTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="30dp"
+        android:layout_marginBottom="60dp"
+        android:background="#FFF"
+        android:text="          Student Dashboard"
+        android:textSize="26sp"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <Button
+        android:id="@+id/view_notice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Announcement"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/homeTxt"
+        />
+
+    <Button
+        android:id="@+id/view_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Slides"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/view_notice"
+        />
+
+    <Button
+        android:id="@+id/assignments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Assignments"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/view_file"
+        />
+
+    <Button
+        android:id="@+id/submit_assignments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit new Assignments"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/assignments"
+        />
+
+    <Button
+        android:id="@+id/student_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/submit_assignments"
+        />
+
+
+
+</RelativeLayout>
